@@ -1,3 +1,4 @@
+/* Universal Styling */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,6 +9,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Header Styling Start */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -20,10 +22,11 @@ header h1 {
     font-size: 48px;
 }
 
-header h1 .seo {
+header h1 span {
     color: #d9dcd6;
 }
 
+/* Nav Styling Start */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -40,6 +43,8 @@ header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
+/* Nav Styling End */
+/* Header Styling End */
 
 a {
     color: #ffffff;
@@ -50,6 +55,7 @@ p {
     font-size: 16px;
 }
 
+/* Hero Styling - For central image on page */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,6 +65,7 @@ p {
     background-position: center;
 }
 
+/* Float styling */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -69,6 +76,7 @@ p {
     margin-left: 25px;
 }
 
+/* Content Section Styling Start */
 .content {
     width: 75%;
     display: inline-block;
@@ -92,7 +100,9 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+/* Content Section Styling End */
 
+/* Benefits Section (Aside) Styling Start */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -119,7 +129,9 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+/* Benefits Section (Aside) Styling End */
 
+/* Footer Styling Start */
 footer {
     padding: 30px;
     clear: both;
@@ -130,3 +142,4 @@ footer {
 footer h2 {
     font-size: 20px;
 }
+/* Footer Styling End */
